@@ -1,19 +1,20 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Eva Garcia Martin
+description: 'Data Scientist | Machine Learning Researcher'
+url: 'http://egarciamartin.github.io'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
+  name: 'Eva Garcia Martin'
+  email: eva.g.596@gmail.com
+  twitter_username: evitamonal
   facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  github_username:  egarciamartin
+  linkedin_username:  evagarciamartin
+  # google_scholar:  9LJwmLkAAAAJ&hl=en
 
 defaults:
   -
