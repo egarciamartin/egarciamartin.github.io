@@ -1186,21 +1186,15 @@ hr {
 
 .eva {
 	display: table;
-	// width: 100%;
-	// height: 100%;
-	// margin-top: 10px;
 	display: table-cell;
 	position: relative;
 
 	z-index: 0;
-	// padding-left: 100px;
   height: 10%;
 	font-weight: 100;
 	float: right;
 	color: #FFF;
 	pointer-events: all;
-	// padding-left: 150px;
-	// text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 	.eva a {
 		color: #FFF;
 	  margin-top: 1px;
@@ -1629,7 +1623,8 @@ input[type="tel"] {
 
 	.navigation--social {
 		margin-top: 5px;
-		margin-left: 0; } }
+		margin-left: 0; }
+ }
 @media all and (max-width: 960px) {
 	.btn-mobile-menu {
 		display: block; }
@@ -1676,18 +1671,39 @@ input[type="tel"] {
 				display: none;
 				margin: 1em auto; }
 
+
+		.eva {
+			// display: none;
+			position: fixed;
+			z-index: 0;
+		  height: 5%;
+			font-weight: 100;
+			// float: center;
+			color: #FFF;
+			pointer-events: all;
+			.eva a {
+				color: #FFF;
+			  margin-top: 0px;
+			  z-index: -1;
+			pointer-events: all;}
+		}
+
+
 	.navigation-wrapper {
 		display: none;
 		position: fixed;
+		z-index: 0;
 		top: 42px;
 		right: 0;
 		left: 0;
 		width: 100%;
+		height: 5%;
 		padding: 20px 0;
 		background: rgba(51, 51, 51, 0.98);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
 		.navigation-wrapper.visible {
-			display: block; }
+			display: table;
+		 	z-index: 0;}
 
 	.cover-navigation {
 		display: block;
@@ -1732,4 +1748,5 @@ input[type="tel"] {
 
 	.btn, .navigation__item a {
 		display: block;
-		margin-bottom: .4em; } }
+		margin-bottom: .4em; }
+}
