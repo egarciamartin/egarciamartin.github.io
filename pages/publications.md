@@ -7,7 +7,7 @@ permalink: /publications
 <!-- ### Ongoing
  -->---
 
-
+[Google Scholar](https://scholar.google.com/citations?user=9LJwmLkAAAAJ&hl=en&oi=ao)
 
 ### Journals
 ----
