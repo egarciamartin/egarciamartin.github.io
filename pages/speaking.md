@@ -7,13 +7,13 @@ permalink: /speaking
 ## Organization / Volunteering
 ---
 
-* *Women in Tech Gothenburg -- Meela* (May 2021 -- Present)
+* *Women in Tech Gothenburg -- Meela* (May 2021 -- Present)\
 I am serving as a tech advisory board member at Meela through the WITGBG Venture Studio program. This entails advising the startup on, and through, their product development process - ultimately improving the quality of their solution and speeding up their time to market.
 
-* *International Conference  Data Mining (ICDM)* (Present)
+* *International Conference  Data Mining (ICDM)* (Present)\
 Sponsorship co-chair for the 2021 edition. (https://icdm2021.auckland.ac.nz)
 
-* *Green Data Mining Workshop* -- European Conference in Machine Learning
+* *Green Data Mining Workshop* -- European Conference in Machine Learning\
 Main organizer and coordinator during 2018, 2019, 2020
 
 
