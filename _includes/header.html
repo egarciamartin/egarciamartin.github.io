@@ -8,22 +8,28 @@
 <header class="panel-cover {% if site.disable_landing_page %}panel-cover--collapsed{% endif %}"
   style="background-image: url({{ site.baseurl }}/images/cover.jpg)">
   <div class="silver col-lg-4 col-md-4 clearfix">
-  <div class="eva">
-    <div class = "navigation-wrapper"
-      <nav class="cover-navigation cover-navigation--primary">
-        <ul class="navigation">
-          <li class="navigation__item__menu"><a href="{{ site.baseurl }}/about" title="link to {{ site.title }}" value=""class="blog-button">About me</a></li>
-          <li class="navigation__item__menu"><a href="{{ site.baseurl }}/publications" title="link to {{ site.title }} blog">Publications</a></li>
-          <li class="navigation__item__menu"><a href="{{ site.baseurl }}/thesis" title="link to {{ site.title }} blog">Thesis</a></li>
-            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/cv" title="link to {{ site.title }} blog">CV</a></li>
-          <li class="navigation__item__menu"><a href="{{ site.baseurl }}/speaking" title="link to {{ site.title }} blog">Public Speaking</a></li>
-        </ul>
-      </nav>
+    <div class="eva">
+      <div class="navigation-wrapper">
+        <nav class="cover-navigation cover-navigation--primary">
+          <ul class="navigation">
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/about" title="link to {{ site.title }}"
+                value="" class="blog-button">About me</a></li>
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/speaking"
+                title="link to {{ site.title }} blog">Public Speaking</a></li>
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/publications"
+                title="link to {{ site.title }} blog">Publications</a></li>
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/thesis"
+                title="link to {{ site.title }} blog">Thesis</a></li>
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/cv"
+                title="link to {{ site.title }} blog">CV</a></li>
+            <li class="navigation__item__menu"><a href="{{ site.baseurl }}/speaking"
+                title="link to {{ site.title }} blog">Public Speaking</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </div>
-</div>
   <div class="panel-main">
-
     <div class="panel-main__inner panel-inverted">
 
       <div class="panel-main__content">
@@ -37,16 +43,26 @@
 
         <!-- <div class="navigation-wrapper"> -->
 
-          <!-- <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" value=""class="blog-button">About me</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#about" title="link to {{ site.title }} blog">Publications</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#publications" title="link to {{ site.title }} blog">PhD Thesis</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#speaking" title="link to {{ site.title }} blog">Public Speaking</a></li>
-            </ul>
-          </nav> -->
+        <!-- <!-- <nav class="cover-navigation cover-navigation--primary"> -->
+        <!-- <ul class="navigation"> -->
+        <!-- <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" -->
+        <!-- value="" class="blog-button">Blog</a></li> -->
+        <!-- <li class="navigation__item"><a href="{{ site.baseurl }}/#about" title="link to {{ site.title }} blog">Publications</a></li> -->
+        <!-- <li class="navigation__item"><a href="{{ site.baseurl }}/#publications" title="link to {{ site.title }} blog">PhD Thesis</a></li> -->
+        <!-- <li class="navigation__item"><a href="{{ site.baseurl }}/#speaking" title="link to {{ site.title }} blog">Public Speaking</a></li> -->
+        <!-- </ul> -->
+        <!-- </nav> -->
         <!-- </div> -->
         <!-- <div class="navigation-wrapper"> -->
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog"
+                  class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
@@ -97,23 +113,23 @@
               {% endif %}
 
               {% if site.author.google_scholar %}
-              <!-- Email -->
+              <!-- Google Scholar -->
               <li class="navigation__item">
-                <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}" title="Google Scholar {{ site.author.google_scholar }}" target="_blank">
+                <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}"
+                  title="Google Scholar {{ site.author.google_scholar }}" target="_blank">
                   <i class="icon icon-google"></i>
                   <span class="label">Google Scholar</span>
                 </a>
               </li>
               {% endif %}
 
-
             </ul>
           </nav>
 
-        <!-- </div> -->
+          <!-- </div> -->
 
+        </div>
       </div>
-
     </div>
 
     <div class="panel-cover--overlay"></div>
